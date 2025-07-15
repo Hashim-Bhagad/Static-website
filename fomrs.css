@@ -1,0 +1,61 @@
+/* ================= FORM STYLING ================= */
+
+.form-container {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: #1e1e1e;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #2e2e2e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-container input:focus {
+  outline: 2px solid #288ee7;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #288ee7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #1b6fbf;
+}
+
+.form-container p {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.form-container a {
+  color: #76c9ff;
+  text-decoration: none;
+}
+
+.form-container a:hover {
+  text-decoration: underline;
+}
